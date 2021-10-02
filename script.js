@@ -1,1 +1,4 @@
-const h2 = document.createElement("h2";)
+const ttu = document.getElementById('announce');
+ttu.addEventListener('mouseenter', function() {
+    alert('Wreck Em Tech!');
+});

@@ -1,3 +1,60 @@
 body {
-    background: blue;
+    background-image: url("background.jpeg");
+}
+
+#headShotBlock {
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 auto;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    line-height: 1em;
+    background-color: cornflowerblue;
+}
+
+#greetingBlock {
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 auto;
+    text-align: left;
+    width: 490px;
+    height: 140px;
+    padding-left: 10px;
+    background-color: cornflowerblue;
+}
+
+#credentialsBlock {
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 250px;
+    height: 150px;
+    float: left;
+    padding-right: 20px;
+    background-color: cornflowerblue;
+}
+.greeting {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+#lastItem {
+    padding-bottom: 10px;
+}
+
+h1 {
+    padding-top: 30px;
+    font-size: xxx-large;
+}
+
+li {
+    list-style: none;
+    text-align: left;
+}
+
+.listCategory {
+    font-weight: bold; 
+    text-decoration: underline;
+    text-decoration-color: red;
 }
